@@ -7,7 +7,7 @@ This script is a companion to the QC process for digitized files. It was written
 
 This script can be used on any hard drive prepared for us by our AV vendor, but it is particularly useful in the 20/21 grant cycle or earlier. Starting in cycle 21/22, the vendor will prepare a csv that we can open and transfer over into one of our ingestible exports. Unlike this script, which is able to gather information from multiple partners and multiple formats into one sheet, our vendor provides up to three csvs, seperated by format type: audio, video, and film.
 ### Side note
-Currently, we still need to do some manual work for multiple item objects. Currently, our system ingests on an object level, not an item level.
+Currently, the current California Revealed repository can only ingest object level rather than item level metadata. This means we will need to do some manual work for multiple item objects before copying over the information for ingest by combining multiple item objects into one row using our formatting and delimiter rules.
 # Procedures
 - You will need python3 to be able to run this script.
 - Download the script from this github: xml-parse-csv.py
