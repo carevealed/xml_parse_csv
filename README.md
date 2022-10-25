@@ -15,7 +15,7 @@ Currently, we still need to do some manual work for multiple item objects. Curre
 - Plug in the hard drive from the vendor.
 - Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
 ```
-cd /Documents/scripts/
+cd Documents/scripts/
 ```
 - Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive:
 ```
