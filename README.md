@@ -26,4 +26,4 @@ Example:
 ```
 python3 xml_parse_csv.py /Volumes/CAR3924/
 ```
--When you press enter, the terminal will print when the csv and headers are written, how many vendor-md.xml files it found, the pathways to each file, and if any errors came up along the way.
+- When you press enter, the terminal will print when the csv and headers are written, how many vendor-md.xml files it found, the pathways to each file, and if any errors came up along the way.
