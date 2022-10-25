@@ -1,5 +1,5 @@
 # xml-to-csv
-This is a script that parses our audiovisual vendor xml to a csv.
+This is a script that parses our audiovisual vendor xml to a csv sheet. This format allows us to more easily ingest it as metadata into our digital repostiory.
 # What it is
 Our vendor creates an xml file in which they record technical information about the av material as they inspect it for digitization. We wanted to be able to more easily ingest this information into our repository to supplement the metadata. This includes information such as running speed, stock, condition notes, transfer comments, duration, etc. The vendor usually includes mulitple partners from a particular grant cycle. The script is able to go through each folder for each organization and gather that all into a csv file that we can use to copy and paste from into an ingestible spreadsheet for our repository.
 # When to use it
