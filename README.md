@@ -14,11 +14,11 @@ Currently, we still need to do some manual work for multiple item objects. Curre
 - Create a folder called "scripts" in your Documents folder. Move xml-to-csv.py to this folder.
 - Plug in the hard drive from the vendor.
 - Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
-> ```
-> cd /Documents/scripts/
-> ```
-> Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive:
-> ```
-> python3 xml-to-csv.py /Volumes/
-> ```
-> Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder.
+```
+cd /Documents/scripts/
+```
+- Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive:
+```
+python3 xml-to-csv.py /Volumes/
+```
+- Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder.
