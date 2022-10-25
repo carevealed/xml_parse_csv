@@ -14,5 +14,7 @@ Currently, we still need to do some manual work for multiple item objects. Curre
 - Create a folder called "scripts" in your Documents folder. Move xml-to-csv.py to this folder.
 - Plug in the hard drive from the vendor.
 - Open terminal. 
-> blockquote python3 xml-to-csv.py
+> '''
+> python3 xml-to-csv.py
+> '''
 > `python3 xml-to-csv.py`
