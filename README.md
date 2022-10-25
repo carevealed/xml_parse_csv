@@ -9,8 +9,8 @@ This script can be used on any hard drive prepared for us by our AV vendor, but 
 ## Side note
 Currently, the current California Revealed repository can only ingest object level rather than item level metadata. This means we will need to do some manual work for multiple item objects before copying over the information for ingest by combining multiple item objects into one row using our formatting and delimiter rules.
 # How
-- You will need python3 to be able to run this script.
-- Download the script from this github: xml-parse-csv.py
+- You will need python3 to be able to run this script
+- Download the script from this github: xml_parse_csv.py
 - Create a folder called "scripts" in your Documents folder. Move xml-parse-csv.py to this folder.
 - Plug in the hard drive from the vendor.
 - Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
@@ -19,6 +19,7 @@ cd Documents/scripts/
 ```
 - Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive:
 ```
-python3 xml-parse-csv.py /Volumes/
+python3 xml_parse_csv.py /Volumes/
 ```
-- Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder.
+- Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder. 
+- 
