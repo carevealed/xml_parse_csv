@@ -9,8 +9,8 @@ This script can be used on any hard drive prepared for us by our AV vendor, but 
 ### Side note
 Currently, we still need to do some manual work for multiple item objects. Currently, our system ingests on an object level, not an item level.
 #Procedures
--You will need python3 to be able to run this script.
--Download the script from this github: xml-to-csv.py
--Create a folder called "scripts" in your Documents folder. Move xml-to-csv.py to this folder.
--Plug in the hard drive from the vendor.
--Open terminal. 
+- You will need python3 to be able to run this script.
+- Download the script from this github: xml-to-csv.py
+- Create a folder called "scripts" in your Documents folder. Move xml-to-csv.py to this folder.
+- Plug in the hard drive from the vendor.
+- Open terminal. 
