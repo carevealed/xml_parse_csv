@@ -21,4 +21,9 @@ cd Documents/scripts/
 ```
 python3 xml_parse_csv.py /Volumes/
 ```
-- Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder. 
+- Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder and make sure that you add a forward slash at the end of the hard drive name.
+Example:
+```
+python3 xml_parse_csv.py /Volumes/CAR3924/
+```
+-When you press enter, the terminal will print when the csv and headers are written, how many vendor-md.xml files it found, the pathways to each file, and if any errors came up along the way.
