@@ -1,4 +1,4 @@
-# xml-to-csv
+# xml-parse-csv
 This is a script that parses technical metadata from an xml file to a csv sheet. This format allows us to more easily ingest technical information gathered from our AV vendor as metadata into our digital repostiory. This script and directions are written for terminal on MacOS.
 ## What it is
 Our vendor creates an xml file in which they record technical information about the av material as they inspect it for digitization. We wanted to be able to more easily ingest this information into our repository as metadata. This includes information such as running speed, stock, condition notes, transfer comments, duration, etc. The vendor usually includes mulitple partners from a particular grant cycle on a hard drive, based on the original shipments we sent to them. These batches are then given a job number and the associated hard drive is named after that job number. The script is run on the hard drive and is able to go through each folder, find the vendor-md.xml file, gather particular information from that file, and put it into a csv file that we can use to copy and paste from into an ingestible spreadsheet for our repository.
@@ -10,8 +10,8 @@ This script can be used on any hard drive prepared for us by our AV vendor, but 
 Currently, we still need to do some manual work for multiple item objects. Currently, our system ingests on an object level, not an item level.
 # Procedures
 - You will need python3 to be able to run this script.
-- Download the script from this github: xml-to-csv.py
-- Create a folder called "scripts" in your Documents folder. Move xml-to-csv.py to this folder.
+- Download the script from this github: xml-parse-csv.py
+- Create a folder called "scripts" in your Documents folder. Move xml-parse-csv.py to this folder.
 - Plug in the hard drive from the vendor.
 - Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
 ```
@@ -19,6 +19,6 @@ cd Documents/scripts/
 ```
 - Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive:
 ```
-python3 xml-to-csv.py /Volumes/
+python3 xml-parse-csv.py /Volumes/
 ```
 - Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder.
