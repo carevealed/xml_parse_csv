@@ -11,7 +11,7 @@ Currently, the current California Revealed repository can only ingest object lev
 # How
 - You will need python3 to be able to run this script
 - Download the script from this github: xml_parse_csv.py
-- Create a folder called "scripts" in your Documents folder. Move xml-parse-csv.py to this folder.
+- Create a folder called "scripts" in your Documents folder. Move xml_parse_csv.py to this folder.
 - Plug in the hard drive from the vendor.
 - Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
 ```
@@ -22,4 +22,3 @@ cd Documents/scripts/
 python3 xml_parse_csv.py /Volumes/
 ```
 - Right now, the pathway only leads to "Volumes". You will need to type the rest in. Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder. 
-- 
