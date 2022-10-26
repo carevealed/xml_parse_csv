@@ -20,11 +20,11 @@ Example:
 python3 xml_parse_csv.py /Volumes/CAR3924/
 ```
 - Note: pathways are case-sensitive. Type out the name of the hard drive as it shows in Finder and make sure that you add a forward slash at the end of the hard drive name.
-- Open terminal and change your directory (cd) to the scripts folder. You can use the code below to do so.
+- Open terminal and change your directory (cd) to the scripts folder. You can use the command below to do so.
 ```
 cd Documents/scripts/
 ```
-- Now you are ready to use the script to create the csv. Here is the beginning of the code, which will then be followed by the pathway to the hard drive. Follow the same steps laid out for the dot_clean section above.
+- Now you are ready to use the script to create the csv. Here is the beginning of the command, which will then be followed by the pathway to the hard drive. Follow the same steps laid out for the dot_clean section above.
 ```
 python3 xml_parse_csv.py /Volumes/[Name-of-harddrive]/
 ```
