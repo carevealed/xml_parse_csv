@@ -13,18 +13,18 @@ directory_default = '/Volumes/CAR4372/'
 header_defaults = ['Item Identifier',
                    'Title',
                    'Format',
-                   'Reel Size',
+                   'Reel Size: Additional Technical Notes',
                    'Stock Manufacturer',
-                   'Total Duration',
+                   'Total Running Time',
                    'Frame Rate',
-                   'Video Standard',
-                   'Color Attributes',
+                   'Track Standard',
+                   'Colors',
                    'Channel Configuration',
                    'Video Sound 1',
                    'Video Sound 2',
                    'Running Speed',
                    'Aspect Ratio',
-                   'Transfer Comments',
+                   'Notes from Vendor',
                    ]
 
 search_string_default = 'vendor-md.xml'
