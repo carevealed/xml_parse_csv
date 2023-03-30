@@ -6,7 +6,7 @@ Our vendor creates an xml file in which they record technical information about 
 This script is a companion to the QC process for digitized files. It was written for the hard drives that we get from the vendor. Before we begin QCing the digitized files, we use this script to access the vendor's information. Prior to this script, we were manually opening the PBCore xml files for each object, searching through the file, and copying over some of the information into a spreadsheet. This script reduces repetitive manual work and human error. It's also helpful for reviewing this metadata on a batch level upon receipt of the hard drive.
 
 This script can be used on any hard drive prepared for us by our AV vendor, but it is particularly useful in the 20/21 grant cycle or earlier. Starting in cycle 21/22, the vendor will prepare a csv that we can open and transfer over into one of our ingestible exports. Unlike this script, which is able to gather information from multiple partners and multiple formats into one sheet, our vendor provides up to three csvs, seperated by format type: audio, video, and film.
-# Procedures
+## Procedures
 - You will need python3 to be able to run this script
 - Download the script from this github: xml_parse_csv.py
 - Create a folder called "scripts" in your Documents folder. Move xml_parse_csv.py to this folder.
