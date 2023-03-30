@@ -83,6 +83,12 @@ def parse_arguments():
     
     return dirs, header_defaults, search_string_default, element_defaults
 
+#TAKES IN THE HDD DIRECTORY STRING AND RETURNS THE NAME OF THE HARD DRIVE. ASSUMES NAME IS "/VOLUMES/NAME/..."
+def get_hd_name(hdd_directory):
+    
+    name = hdd_directory.split('/')[2]
+    
+    return name
 
 #MAIN SCRIPT STARTS HERE
 def run_script():
@@ -91,7 +97,7 @@ def run_script():
     
     #CREATE CSV
     
-    csvfile = open(hdd_directory+'data.csv', 'w', encoding='utf-8')
+    csvfile = open(hdd_directory+get_hd_name(hdd_directory)+'_vendor-md.csv', 'w', encoding='utf-8')
     csv_writer = csv.writer(csvfile)
     print("===============================================================")
     print('csv created')
