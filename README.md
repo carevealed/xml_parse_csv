@@ -32,5 +32,5 @@ python3 xml_parse_csv.py /Volumes/CAR3924/
 ```
 - When you press enter, the terminal will print when the csv and headers are written, how many vendor-md.xml files it found, the pathways to each file, and if any errors came up along the way.
 - If successful, you should now find a file in the hard drive directory with the name of the hard drive followed by "_vendor-md.csv" i.e. CAVP5081D1_vendor-md.xml
-## Side note
-Currently, the California Revealed repository can only ingest object level rather than item level metadata. This means we will need to do some manual work for multiple item objects before copying over the information for ingest by combining multiple item objects into one row using our formatting and delimiter rules. We also need to manually change certain fields, such as Running Speed and Channel Configuration, to match out controlled vocabulary because our vendor uses different language.
+## Side note for partner sets with multi-item objects
+Currently, the California Revealed repository can only ingest object level rather than item level metadata. This means we will need to use the expand-collapse-lines scripts to expand our object-level rows and turn them into item-level rows, transfer the information gathered in this script, and collapse them back into object-level rows before ingesting them back into our repository.
